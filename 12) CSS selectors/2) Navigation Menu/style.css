@@ -1,0 +1,17 @@
+/* Que 1 - useing the descendant combinator selector to remove list style type and text underlining*/
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/* Que 2 - using the child combinator to make display inline */
+ul>li{
+    display: inline;
+}
+
+/* Que 3 - using the adjacent sibling combinator adding margin between list items */
+li+li{
+    margin: 10px;
+}
